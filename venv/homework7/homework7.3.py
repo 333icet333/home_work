@@ -1,8 +1,8 @@
-l = ["cat", "list", "dog", "rules", "python", "grenka"]
-nl = []
-for index, item in enumerate(l):
+my_list = ["cat", "list", "dog", "rules", "python", "grenka"]
+new_list= []
+for index, item in enumerate(my_list):
     if index%2!=0:
-        nl.append(item[::-1])
+        new_list.append(item[::-1])
     else:
-        nl.append(item)
-print(nl)
+        new_list.append(item)
+print(new_list)
